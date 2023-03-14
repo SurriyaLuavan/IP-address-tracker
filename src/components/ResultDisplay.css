@@ -28,6 +28,7 @@
 
 .info {
   font-weight: var(--fw-semi-bold);
+  text-align: center;
 }
 
 @media (min-width: 50em) {
