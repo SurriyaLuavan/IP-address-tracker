@@ -1,0 +1,7 @@
+.search-container {
+  display: flex;
+}
+
+input {
+  padding: 1em;
+}
