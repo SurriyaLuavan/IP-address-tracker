@@ -3,6 +3,7 @@ import ResultDisplay from "./components/ResultDisplay";
 import Location from "./components/Location";
 import { TailSpin } from "react-loading-icons";
 import { useState } from "react";
+import "./App.css";
 
 function App() {
   const [ipGeoInfo, setIpGeoInfo] = useState({
@@ -14,9 +15,11 @@ function App() {
   });
 
   return (
-    <div className="App-container">
-      <h1>IP Address Tracker</h1>
-      <SearchBar setOnSearch={setIpGeoInfo} />
+    <div className="app-container">
+      <div className="background-container padding-top-100 padding-bottom-800">
+        <h1 className="heading">IP Address Tracker</h1>
+        <SearchBar setOnSearch={setIpGeoInfo} />
+      </div>
       <ResultDisplay
         ipAddress={ipGeoInfo.ipAddress}
         location={ipGeoInfo.location}
@@ -24,10 +27,10 @@ function App() {
         isp={ipGeoInfo.isp}
       />
       {ipGeoInfo.position === "" ? (
-        <>
+        <div className="loading">
           <TailSpin stroke="#4d51aa" strokeWidth="4" height="4em" />
           <p style={{ color: "#4d51aa" }}>Loading...</p>
-        </>
+        </div>
       ) : (
         <Location position={ipGeoInfo.position} />
       )}

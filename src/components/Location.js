@@ -33,11 +33,18 @@ const Location = ({ position }) => {
 
   return (
     <>
-      {position !== "" ? (
-        <MapContainer center={[lat, lng]} zoom={13} scrollWheelZoom={false}>
-          <MyComponent center={position} />
-        </MapContainer>
-      ) : null}
+      <section className="location-container">
+        {position !== "" ? (
+          <MapContainer
+            center={[lat, lng]}
+            zoom={13}
+            zoomControl={false}
+            scrollWheelZoom={true}
+          >
+            <MyComponent center={position} />
+          </MapContainer>
+        ) : null}
+      </section>
     </>
   );
 };

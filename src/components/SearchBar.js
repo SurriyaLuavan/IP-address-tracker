@@ -59,26 +59,25 @@ const SearchBar = ({ setOnSearch }) => {
   }, [searchValue]);
 
   return (
-    <section className="search-container">
-      <input
-        type="text"
-        ref={value}
-        placeholder="Search for any IP address or domain"
-        onFocus={() => setValid(true)}
-      />
+    <section className="flex-container">
+      <div className="input-container">
+        <input
+          type="text"
+          ref={value}
+          placeholder="Search for any IP address or domain"
+          onFocus={() => setValid(true)}
+        />
+        {valid !== true ? (
+          <p className="error">
+            Please enter a valid IP address or domain name
+          </p>
+        ) : null}
+      </div>
       <button type="button" onClick={handleSearch}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="11"
-          height="14"
-          style={{ backgroundColor: "black" }}
-        >
+        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14">
           <path fill="none" stroke="#FFF" strokeWidth="3" d="M2 1l6 6-6 6" />
         </svg>
       </button>
-      {valid !== true ? (
-        <p>Please enter a valid IP address or domain name</p>
-      ) : null}
     </section>
   );
 };

@@ -4,21 +4,21 @@ import "./ResultDisplay.css";
 const ResultDisplay = ({ ipAddress, location, timeZone, isp }) => {
   return (
     <section className="display-container">
-      <article>
-        <h2>IP ADDRESS</h2>
-        <p>{ipAddress}</p>
+      <article className="grid-container">
+        <h2 className="secondary-heading">IP ADDRESS</h2>
+        <p className="info">{ipAddress}</p>
       </article>
-      <article>
-        <h2>LOCATION</h2>
-        <p>{location}</p>
+      <article className="grid-container">
+        <h2 className="secondary-heading">LOCATION</h2>
+        <p className="info">{location}</p>
       </article>
-      <article>
-        <h2>TIMEZONE</h2>
-        <p>{timeZone}</p>
+      <article className="grid-container">
+        <h2 className="secondary-heading">TIMEZONE</h2>
+        <p className="info">{timeZone}</p>
       </article>
-      <article>
-        <h2>ISP</h2>
-        <p>{isp}</p>
+      <article className="grid-container">
+        <h2 className="secondary-heading">ISP</h2>
+        <p className="info">{isp}</p>
       </article>
     </section>
   );
