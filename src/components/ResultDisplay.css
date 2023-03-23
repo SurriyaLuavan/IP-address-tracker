@@ -55,6 +55,7 @@
 
   .info {
     font-size: var(--fs-600);
+    text-align: start;
   }
 
   .secondary-heading {
