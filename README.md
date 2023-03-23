@@ -6,8 +6,6 @@ The app uses Semantic HTML5, Flexbox, and CSS grid to create a clean and respons
 
 This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-<br />
-
 ## **Features**
 
 - **Track IP address and location:** Enter a domain name or IP address into the search bar, and the app will display the location on a map using the Leaflet maps API.
@@ -18,23 +16,17 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 - **Easy to use:** With a simple and intuitive interface, the IP Tracker App is easy to use for both novice and experienced users.
 
-<br />
-
 ## **Usage**
 
 To use the app, simply enter a domain or IP address in the search bar and press the arrow button. The app will fetch data from the APIs and display the information on the page, including the location on the map and the detailed information about the domain or IP address.
 
 ### Live Site URL : [Demo](https://surriyaluavan.github.io/IP-address-tracker/)
 
-<br />
-
 ## **Screenshots**
 
 <br />
 
 ![Desktop Version](./public/Desktop.png)
-
-<br />
 
 ## **Technologies Used**
 
@@ -47,8 +39,6 @@ The IP Tracker App uses the following technologies:
 - CSS grid
 - Leaflet maps API
 - ipfy API
-
-<br />
 
 ## Author
 
