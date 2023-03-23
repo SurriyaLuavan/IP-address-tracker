@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# **IP Tracker App**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the IP Tracker App! This is a React-based web application that allows users to track the IP address and location of a given domain or IP address. Whether you're troubleshooting network issues or just curious about the location of a website, this app makes it easy to get the information you need.
 
-## Available Scripts
+The app uses Semantic HTML5, Flexbox, and CSS grid to create a clean and responsive user interface that is optimized for a mobile-first workflow. It also fetches data from two APIs, the Leaflet maps API and the ipfy API, to display a map of the location associated with the IP address and additional information about the domain or IP address.
 
-In the project directory, you can run:
+This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### `npm start`
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Features**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Track IP address and location:** Enter a domain name or IP address into the search bar, and the app will display the location on a map using the Leaflet maps API.
 
-### `npm test`
+- **Additional information:** The app provides additional information about the domain or IP address, including the ISP, country, region, and timezone using the ipfy API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Mobile-first design:** The app is optimized for mobile devices, with a clean and responsive design that adapts to different screen sizes.
 
-### `npm run build`
+- **Easy to use:** With a simple and intuitive interface, the IP Tracker App is easy to use for both novice and experienced users.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Usage**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To use the app, simply enter a domain or IP address in the search bar and press the arrow button. The app will fetch data from the APIs and display the information on the page, including the location on the map and the detailed information about the domain or IP address.
 
-### `npm run eject`
+### Live Site URL : [Demo](https://surriyaluavan.github.io/IP-address-tracker/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **Screenshots**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Desktop Version](./public/Desktop.png)
 
-## Learn More
+<br />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## **Technologies Used**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The IP Tracker App uses the following technologies:
 
-### Code Splitting
+- React Library
+- Semantic HTML5
+- Mobile-first workflow
+- Flexbox
+- CSS grid
+- Leaflet maps API
+- ipfy API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br />
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Surriya Luavan Minatchy](https://www.your-site.com)
+- LinkedIn - [@Surriya Luavan Minatchy](https://www.linkedin.com/in/surriya-luavan-minatchy/)
