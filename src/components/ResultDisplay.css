@@ -28,6 +28,7 @@
 
 .info {
   font-weight: var(--fw-semi-bold);
+  text-align: center;
 }
 
 @media (min-width: 50em) {
@@ -54,6 +55,7 @@
 
   .info {
     font-size: var(--fs-600);
+    text-align: start;
   }
 
   .secondary-heading {
