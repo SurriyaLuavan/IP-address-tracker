@@ -2,7 +2,7 @@ import React from "react";
 import "./SearchBar.css";
 import { useState, useRef, useEffect } from "react";
 
-const APIkey = "at_7CIKWxFOBdpCASOqlFSFf2PBGie4Z";
+const APIkey = "at_prjbpqaZWkbJBnQrCpuvZ9H4mGF0r";
 
 const SearchBar = ({ setOnSearch }) => {
   const [searchValue, setSearchValue] = useState("");
